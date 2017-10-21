@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ESEMKABAKERYDataSet4" targetNamespace="http://tempuri.org/ESEMKABAKERYDataSet4.xsd" xmlns:mstns="http://tempuri.org/ESEMKABAKERYDataSet4.xsd" xmlns="http://tempuri.org/ESEMKABAKERYDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ESEMKABAKERYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ESEMKABAKERYConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESEMKA_BAKERY.My.MySettings.GlobalReference.Default.ESEMKABAKERYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IncomingRawViewTableAdapter" GeneratorDataComponentClassName="IncomingRawViewTableAdapter" Name="IncomingRawView" UserDataComponentName="IncomingRawViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ESEMKABAKERYConnectionString (MySettings)" DbObjectName="ESEMKABAKERY.dbo.IncomingRawView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IncomingRawMaterialId, RawMaterialId, PricePer100Gram, BestBeforeDate, WeightGram, IncomingDate, EmployeeId, Description FROM dbo.IncomingRawView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IncomingRawMaterialId" DataSetColumn="IncomingRawMaterialId" />
+              <Mapping SourceColumn="RawMaterialId" DataSetColumn="RawMaterialId" />
+              <Mapping SourceColumn="PricePer100Gram" DataSetColumn="PricePer100Gram" />
+              <Mapping SourceColumn="BestBeforeDate" DataSetColumn="BestBeforeDate" />
+              <Mapping SourceColumn="WeightGram" DataSetColumn="WeightGram" />
+              <Mapping SourceColumn="IncomingDate" DataSetColumn="IncomingDate" />
+              <Mapping SourceColumn="EmployeeId" DataSetColumn="EmployeeId" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ESEMKABAKERYDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ESEMKABAKERYDataSet4" msprop:Generator_UserDSName="ESEMKABAKERYDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IncomingRawView" msprop:Generator_TableClassName="IncomingRawViewDataTable" msprop:Generator_TableVarName="tableIncomingRawView" msprop:Generator_TablePropName="IncomingRawView" msprop:Generator_RowDeletingName="IncomingRawViewRowDeleting" msprop:Generator_RowChangingName="IncomingRawViewRowChanging" msprop:Generator_RowEvHandlerName="IncomingRawViewRowChangeEventHandler" msprop:Generator_RowDeletedName="IncomingRawViewRowDeleted" msprop:Generator_UserTableName="IncomingRawView" msprop:Generator_RowChangedName="IncomingRawViewRowChanged" msprop:Generator_RowEvArgName="IncomingRawViewRowChangeEvent" msprop:Generator_RowClassName="IncomingRawViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IncomingRawMaterialId" msprop:Generator_ColumnVarNameInTable="columnIncomingRawMaterialId" msprop:Generator_ColumnPropNameInRow="IncomingRawMaterialId" msprop:Generator_ColumnPropNameInTable="IncomingRawMaterialIdColumn" msprop:Generator_UserColumnName="IncomingRawMaterialId" type="xs:int" />
+              <xs:element name="RawMaterialId" msprop:Generator_ColumnVarNameInTable="columnRawMaterialId" msprop:Generator_ColumnPropNameInRow="RawMaterialId" msprop:Generator_ColumnPropNameInTable="RawMaterialIdColumn" msprop:Generator_UserColumnName="RawMaterialId" type="xs:int" />
+              <xs:element name="PricePer100Gram" msprop:Generator_ColumnVarNameInTable="columnPricePer100Gram" msprop:Generator_ColumnPropNameInRow="PricePer100Gram" msprop:Generator_ColumnPropNameInTable="PricePer100GramColumn" msprop:Generator_UserColumnName="PricePer100Gram" type="xs:int" />
+              <xs:element name="BestBeforeDate" msprop:Generator_ColumnVarNameInTable="columnBestBeforeDate" msprop:Generator_ColumnPropNameInRow="BestBeforeDate" msprop:Generator_ColumnPropNameInTable="BestBeforeDateColumn" msprop:Generator_UserColumnName="BestBeforeDate" type="xs:dateTime" />
+              <xs:element name="WeightGram" msprop:Generator_ColumnVarNameInTable="columnWeightGram" msprop:Generator_ColumnPropNameInRow="WeightGram" msprop:Generator_ColumnPropNameInTable="WeightGramColumn" msprop:Generator_UserColumnName="WeightGram" type="xs:int" />
+              <xs:element name="IncomingDate" msprop:Generator_ColumnVarNameInTable="columnIncomingDate" msprop:Generator_ColumnPropNameInRow="IncomingDate" msprop:Generator_ColumnPropNameInTable="IncomingDateColumn" msprop:Generator_UserColumnName="IncomingDate" type="xs:dateTime" />
+              <xs:element name="EmployeeId" msprop:Generator_ColumnVarNameInTable="columnEmployeeId" msprop:Generator_ColumnPropNameInRow="EmployeeId" msprop:Generator_ColumnPropNameInTable="EmployeeIdColumn" msprop:Generator_UserColumnName="EmployeeId" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IncomingRawView" />
+      <xs:field xpath="mstns:IncomingRawMaterialId" />
+      <xs:field xpath="mstns:RawMaterialId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

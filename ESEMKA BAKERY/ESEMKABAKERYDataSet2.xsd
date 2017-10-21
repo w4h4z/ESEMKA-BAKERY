@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ESEMKABAKERYDataSet2" targetNamespace="http://tempuri.org/ESEMKABAKERYDataSet2.xsd" xmlns:mstns="http://tempuri.org/ESEMKABAKERYDataSet2.xsd" xmlns="http://tempuri.org/ESEMKABAKERYDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ESEMKABAKERYConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ESEMKABAKERYConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESEMKA_BAKERY.My.MySettings.GlobalReference.Default.ESEMKABAKERYConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RecipeHeaderViewTableAdapter" GeneratorDataComponentClassName="RecipeHeaderViewTableAdapter" Name="RecipeHeaderView" UserDataComponentName="RecipeHeaderViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ESEMKABAKERYConnectionString (MySettings)" DbObjectName="ESEMKABAKERY.dbo.RecipeHeaderView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FoodId, FoodName, Description, Price, Status, RecipeId, OutputUnitInPieces, RecipeDesc, EmployeeId, CreatedDate FROM dbo.RecipeHeaderView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FoodId" DataSetColumn="FoodId" />
+              <Mapping SourceColumn="FoodName" DataSetColumn="FoodName" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Price" DataSetColumn="Price" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="RecipeId" DataSetColumn="RecipeId" />
+              <Mapping SourceColumn="OutputUnitInPieces" DataSetColumn="OutputUnitInPieces" />
+              <Mapping SourceColumn="RecipeDesc" DataSetColumn="RecipeDesc" />
+              <Mapping SourceColumn="EmployeeId" DataSetColumn="EmployeeId" />
+              <Mapping SourceColumn="CreatedDate" DataSetColumn="CreatedDate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ESEMKABAKERYDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ESEMKABAKERYDataSet2" msprop:Generator_UserDSName="ESEMKABAKERYDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RecipeHeaderView" msprop:Generator_TableClassName="RecipeHeaderViewDataTable" msprop:Generator_TableVarName="tableRecipeHeaderView" msprop:Generator_TablePropName="RecipeHeaderView" msprop:Generator_RowDeletingName="RecipeHeaderViewRowDeleting" msprop:Generator_RowChangingName="RecipeHeaderViewRowChanging" msprop:Generator_RowEvHandlerName="RecipeHeaderViewRowChangeEventHandler" msprop:Generator_RowDeletedName="RecipeHeaderViewRowDeleted" msprop:Generator_UserTableName="RecipeHeaderView" msprop:Generator_RowChangedName="RecipeHeaderViewRowChanged" msprop:Generator_RowEvArgName="RecipeHeaderViewRowChangeEvent" msprop:Generator_RowClassName="RecipeHeaderViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FoodId" msprop:Generator_ColumnVarNameInTable="columnFoodId" msprop:Generator_ColumnPropNameInRow="FoodId" msprop:Generator_ColumnPropNameInTable="FoodIdColumn" msprop:Generator_UserColumnName="FoodId" type="xs:int" />
+              <xs:element name="FoodName" msprop:Generator_ColumnVarNameInTable="columnFoodName" msprop:Generator_ColumnPropNameInRow="FoodName" msprop:Generator_ColumnPropNameInTable="FoodNameColumn" msprop:Generator_UserColumnName="FoodName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:int" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecipeId" msprop:Generator_ColumnVarNameInTable="columnRecipeId" msprop:Generator_ColumnPropNameInRow="RecipeId" msprop:Generator_ColumnPropNameInTable="RecipeIdColumn" msprop:Generator_UserColumnName="RecipeId" type="xs:int" />
+              <xs:element name="OutputUnitInPieces" msprop:Generator_ColumnVarNameInTable="columnOutputUnitInPieces" msprop:Generator_ColumnPropNameInRow="OutputUnitInPieces" msprop:Generator_ColumnPropNameInTable="OutputUnitInPiecesColumn" msprop:Generator_UserColumnName="OutputUnitInPieces" type="xs:int" />
+              <xs:element name="RecipeDesc" msprop:Generator_ColumnVarNameInTable="columnRecipeDesc" msprop:Generator_ColumnPropNameInRow="RecipeDesc" msprop:Generator_ColumnPropNameInTable="RecipeDescColumn" msprop:Generator_UserColumnName="RecipeDesc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmployeeId" msprop:Generator_ColumnVarNameInTable="columnEmployeeId" msprop:Generator_ColumnPropNameInRow="EmployeeId" msprop:Generator_ColumnPropNameInTable="EmployeeIdColumn" msprop:Generator_UserColumnName="EmployeeId" type="xs:int" />
+              <xs:element name="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" msprop:Generator_UserColumnName="CreatedDate" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RecipeHeaderView" />
+      <xs:field xpath="mstns:FoodId" />
+      <xs:field xpath="mstns:RecipeId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

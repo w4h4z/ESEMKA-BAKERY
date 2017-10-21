@@ -1,0 +1,1346 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ESEMKA BAKERY
+</name>
+</assembly>
+<members>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.FoodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialIntakeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.FoodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialIntakeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.FoodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.IncomingRawMaterialHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.ProductionHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RawMaterialIntakeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.RecipeHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet.SellingHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.FoodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.IncomingRawMaterialDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.IncomingRawMaterialHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.ProductionDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.ProductionHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.RawMaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.RawMaterialIntakeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.RecipeDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.RecipeHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.SellingDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.SellingHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.FoodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialIntakeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.FoodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialIntakeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.FoodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.IncomingRawMaterialHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.ProductionHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RawMaterialIntakeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.RecipeHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1.SellingHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.FoodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.IncomingRawMaterialDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.IncomingRawMaterialHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.ProductionDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.ProductionHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.RawMaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.RawMaterialIntakeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.RecipeDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.RecipeHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.SellingDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.SellingHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2.RecipeHeaderViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2.RecipeHeaderViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2.RecipeHeaderViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.RecipeHeaderViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.FoodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialIntakeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.FoodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialIntakeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.FoodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.IncomingRawMaterialHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.ProductionHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RawMaterialIntakeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.RecipeHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3.SellingHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.FoodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.IncomingRawMaterialDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.IncomingRawMaterialHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.ProductionDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.ProductionHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.RawMaterialTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.RawMaterialIntakeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.RecipeDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.RecipeHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.SellingDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.SellingHeaderTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4.IncomingRawViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4.IncomingRawViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4.IncomingRawViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.IncomingRawViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5.IncomingRawViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5.IncomingRawViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5.IncomingRawViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.IncomingRawViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6.IncomingRawViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6.IncomingRawViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6.IncomingRawViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.IncomingRawViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY.ESEMKABAKERYDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY.ESEMKABAKERYDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.ESEMKABAKERYDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ESEMKA_BAKERY.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ESEMKA_BAKERY.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.AktivitasUjianDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.DetailKelasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JadwalUjianDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JurusanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KaryawanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KelasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.SiswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.UserAccountDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.AktivitasUjianRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.DetailKelasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JadwalUjianRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JurusanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KaryawanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KelasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.SiswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.UserAccountRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.AktivitasUjianRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.DetailKelasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JadwalUjianRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.JurusanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KaryawanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.KelasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.SiswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSet.UserAccountRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.AktivitasUjianTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.DetailKelasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.JadwalUjianTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.JurusanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.KaryawanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.KelasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.SiswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.UserAccountTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_BAKERY._2016DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_BAKERY._2016DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_BAKERY._2016DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.UpdateAll(ESEMKA_BAKERY._2016DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_BAKERY._2016DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

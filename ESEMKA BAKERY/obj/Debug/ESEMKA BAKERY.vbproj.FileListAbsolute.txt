@@ -1,0 +1,13 @@
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\bin\Debug\ESEMKA BAKERY.exe.config
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\bin\Debug\ESEMKA BAKERY.exe
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\bin\Debug\ESEMKA BAKERY.pdb
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\bin\Debug\ESEMKA BAKERY.xml
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA BAKERY.vbprojResolveAssemblyReference.cache
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA_BAKERY.Login.resources
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA_BAKERY.Main_Frm.resources
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA_BAKERY.Resources.resources
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA BAKERY.vbproj.GenerateResource.Cache
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA BAKERY.exe
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA BAKERY.xml
+D:\New folder (2)\ESEMKA BAKERY\ESEMKA BAKERY\obj\Debug\ESEMKA BAKERY.pdb

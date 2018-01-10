@@ -579,28 +579,28 @@ Public Class Main_Frm
     End Sub
 
     Private Sub chart()
-        Dim itemChecked As Object
-        Dim a As String()
-        For Each itemChecked In CheckedListBox1.CheckedItems
-            a = {itemChecked.ToString}
-        Next
+        'Dim itemChecked As Object
+        'Dim a As String()
+        'For Each itemChecked In CheckedListBox1.CheckedItems
+        '    a = {itemChecked.ToString}
+        'Next
 
-        'Chart1.Series.Clear()
-        'Chart1.Series.Add("Income").ChartType = DataVisualization.Charting.SeriesChartType.Column
-        'Chart1.Series.Add("Outcome").ChartType = DataVisualization.Charting.SeriesChartType.Column
+        Chart1.Series.Clear()
+        Chart1.Series.Add("Income").ChartType = DataVisualization.Charting.SeriesChartType.Column
+        Chart1.Series.Add("Outcome").ChartType = DataVisualization.Charting.SeriesChartType.Column
 
-        'sql = "select * from SellingHeader as sh join SellingDetail as sd on sh.SellingId=sd.SellingId where SellingDate between '" & DateTimePickerStartReport.Value.AddDays(-1).ToString("yyyy/MM/dd hh:mm:ss") & "' and '" & DateTimePickerEndReport.Value.ToString("yyyy/MM/dd hh:mm:ss") & "' and FoodName='" &  & "' or FoodName='" &  & "'"
+        sql = "select * from SellingHeader as sh join SellingDetail as sd on sh.SellingId=sd.SellingId where SellingDate between '" & DateTimePickerStartReport.Value.AddDays(-1).ToString("yyyy/MM/dd hh:mm:ss") & "' and '" & DateTimePickerEndReport.Value.ToString("yyyy/MM/dd hh:mm:ss") & "' and FoodName='" &  & "' or FoodName='" &  & "'"
 
-        'Try
-        '    dbcomm = New SqlCommand(sql, db.conn)
-        '    dbread = dbcomm.ExecuteReader
-        '    While dbread.Read
-        '        Chart1.Series("Income").Points.AddXY(dbread("SellingDate"), dbread("Price"))
-        '    End While
-        '    dbread.Close()
-        'Catch ex As Exception
-        '    MsgBox(ex.Message, MsgBoxStyle.Critical)
-        'End Try
+        Try
+            dbcomm = New SqlCommand(sql, db.conn)
+            dbread = dbcomm.ExecuteReader
+            While dbread.Read
+                Chart1.Series("Income").Points.AddXY(dbread("SellingDate"), dbread("Price"))
+            End While
+            dbread.Close()
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical)
+        End Try
     End Sub
 
     Private Sub btnLoadReport_Click(sender As Object, e As EventArgs) Handles btnLoadReport.Click
